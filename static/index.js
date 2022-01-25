@@ -341,10 +341,10 @@ function shareText(score) {
         return '倒计时多了' + ((deviation_time / 1000) - 20).toFixed(2) + "s";
     }
     SubmitResults();
-    if (score <= 49) return '叔叔很生气';
-    if (score <= 99) return '你所热爱的就是你的生活';
-    if (score <= 149) return '您就是蒙古上单？';
-    if (score <= 199) return '您马什么时候4啊？';
+    if (score <= 49) return '五中人，五中魂';
+    if (score <= 99) return '好杀！';
+    if (score <= 149) return '一操场YXD可不够您杀';
+    if (score <= 199) return '满门抄斩';
     return '人？';
 }
 
